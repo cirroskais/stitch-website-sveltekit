@@ -1,0 +1,248 @@
+/* ubuntu font for other text */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* setup vars as i do intend to reuse this code for my actual website */
+:root {
+    --wp: url("i-hate-sorting-assets/beach.png");
+    --wpb: url("i-hate-sorting-assets/beach-blur.png");
+    --wpbd: url("i-hate-sorting-assets/beach-blur-darker.png");
+    --bamboo: url("i-hate-sorting-assets/BAMBOOLOOP.png");
+    --bamboostop: url("i-hate-sorting-assets/BAMBOOSTOPPIE.png");
+    --bambL: url("i-hate-sorting-assets/BMBENDLEFT.png");
+    --bambR: url("i-hate-sorting-assets/BMBENDRIGHT.png");
+    --pre: #64bde9;
+    --dark: #1e1e1e99;
+    --oceanL: #ade6f7;
+    --claws: #082142;
+    --header: #9cceff;
+    --darkCol: #00000080;
+}
+/* buka bird definition */
+@font-face {
+    font-family: "BukaBird";
+    src: url("i-hate-sorting-assets/BukaBird.ttf") format("truetype");
+}
+
+/* le cool shit */
+::-webkit-scrollbar-thumb {
+    background-color: #73633a;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #c5bea7;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--oceanL);
+}
+::-webkit-scrollbar {
+    background-color: var(--darkCol) !important;
+}
+::-moz-selection {
+    color: var(--oceanL);
+    background: var(--claws);
+}
+::selection {
+    color: var(--oceanL);
+    background: var(--claws);
+}
+/* CLASS SPECIFICALLY FOR TEXT TO USE BUKA BIRD */
+.bb {
+    font-family: "BukaBird", sans-serif;
+}
+/* ubuntu */
+.ub {
+    font-family: "Ubuntu", sans-serif;
+}
+.fuckapple {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+}
+* {
+    box-sizing: border-box;
+    color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--header);
+}
+.cnt {
+    text-align: center;
+}
+.nfw {
+    font-weight: normal;
+}
+.brd {
+    border-bottom: 2px solid var(--header);
+    padding-bottom: 4px;
+}
+.wht {
+    color: white;
+}
+*,
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+
+/* Quote box container */
+.quote-box {
+    border-left: 4px solid var(--header);
+    background: var(--darkCol);
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 20px 0;
+    position: relative;
+}
+/* quote text style */
+.quote-text {
+    font-size: 18px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 10px;
+}
+.fixmargin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.quote-author {
+    font-style: italic;
+    color: var(--pre);
+}
+.quote-author.fixmargin {
+    margin-bottom: 8px;
+}
+.quote-text::before,
+.quote-text::after {
+    content: "\201C";
+    font-size: 36px;
+    color: var(--header);
+    vertical-align: middle;
+}
+.quote-text::after {
+    content: "\201D";
+}
+.inbl {
+    display: inline-block;
+}
+.jst {
+    text-align: justify;
+}
+a.rrr {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.rrr {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.mobile {
+    display: none;
+}
+
+/* unironically fuck apple, y'all can suck my fat wiggly alien dick */
+@media only screen and (max-width: 720px) {
+    h2 {
+        font-size: 1.25em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .fuckapple {
+        width: 35px;
+        height: 48px;
+    }
+    p {
+        font-size: 0.8em !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+    .fuckapple {
+        right: 0;
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .mobile {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: -10px;
+    }
+}
+
+/*lastfm shit*/
+#lastfm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.lastfm__box {
+    display: flex;
+    max-width: 420px;
+    padding: 16px;
+    border-left: 4px solid var(--header);
+    background: var(--darkCol);
+}
+.lastfm__art {
+    flex: 0 0 auto;
+    margin-right: 12px;
+    height: auto;
+    width: 100px;
+}
+.lastfm__info {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lastfm__track,
+.lastfm__artist,
+.lastfm__album {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: anywhere;
+}
+.lastfm__info p {
+    font-size: 12px;
+}
+.lastfm__info h2 {
+    font-size: 20px;
+}
+.lastfm__artist,
+.lastfm__album {
+    font-style: italic;
+    color: var(--pre);
+}
+.lastfm__link {
+    width: 100px;
+    height: 100px;
+    margin-right: 12px;
+}
+.lastfm__ellipse {
+    -webkit-line-clamp: 2;
+    white-space: break-spaces;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
