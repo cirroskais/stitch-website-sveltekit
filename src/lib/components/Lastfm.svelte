@@ -18,7 +18,7 @@
                 },
             } = await response.json();
 
-            src = track.image.find((image: { size: string }) => image.size === "large")["#text"];
+            src = track.image.find((image: { size: string }) => image.size === "large")["#text"] || "missing.png"
             title = track.name;
             artist = track.artist["#text"];
             album = track.album["#text"];
@@ -35,9 +35,9 @@
         <div class="lastfm__box">
             <img {src} class="lastfm__art" {alt} title={alt} />
             <div class="lastfm__info">
-                <h2 class="lastfm__track ub wht">{title}</h2>
-                <p class="lastfm__artist ub">{artist}</p>
-                <p class="lastfm__album ub">{album}</p>
+                <h2 class="lastfm__track ub wht lastfm__ellipse">{title}</h2>
+                <p class="lastfm__artist ub lastfm__ellipse">{artist}</p>
+                <p class="lastfm__album ub lastfm__ellipse">{album}</p>
             </div>
         </div>
     </div>
