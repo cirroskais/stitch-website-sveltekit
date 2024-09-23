@@ -53,8 +53,8 @@
         </div>
         <div class="links2">
             <h2 class="lh1txt ub">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
+                <a href="./">Home</a>
+                <a href="./about">About</a>
                 <a href="https://tantalog.liloandstit.ch/" target="_blank">Tantalog Dictionary</a>
                 <a href="https://bsky.liloandstit.ch/" target="_blank">Bluesky</a>
                 <a href="https://github.com/s626ch/" target="_blank">Github</a>
@@ -63,8 +63,8 @@
                 <a href="https://twitter.com/s626ch/" target="_blank">Twitter</a>
                 <a href="https://twitter.com/sillystitchy/" target="_blank">Fursuit Twitter</a>
                 <a href="https://discord.liloandstit.ch/" target="_blank">Discord</a>
-                <a href="/buttons">Buttons</a>
-                <a href="/more">More</a>
+                <a href="./buttons">Buttons</a>
+                <a href="./more">More</a>
             </h2>
         </div>
     </div>

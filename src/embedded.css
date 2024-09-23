@@ -3,13 +3,13 @@
 
 /* setup vars as i do intend to reuse this code for my actual website */
 :root {
-    --wp: url("i-hate-sorting-assets/beach.png");
-    --wpb: url("i-hate-sorting-assets/beach-blur.png");
-    --wpbd: url("i-hate-sorting-assets/beach-blur-darker.png");
-    --bamboo: url("i-hate-sorting-assets/BAMBOOLOOP.png");
-    --bamboostop: url("i-hate-sorting-assets/BAMBOOSTOPPIE.png");
-    --bambL: url("i-hate-sorting-assets/BMBENDLEFT.png");
-    --bambR: url("i-hate-sorting-assets/BMBENDRIGHT.png");
+    --wp: url("../static/i-hate-sorting-assets/beach.png");
+    --wpb: url("../static/i-hate-sorting-assets/beach-blur.png");
+    --wpbd: url("../static/i-hate-sorting-assets/beach-blur-darker.png");
+    --bamboo: url("../static/i-hate-sorting-assets/BAMBOOLOOP.png");
+    --bamboostop: url("../static/i-hate-sorting-assets/BAMBOOSTOPPIE.png");
+    --bambL: url("../static/i-hate-sorting-assets/BMBENDLEFT.png");
+    --bambR: url("../static/i-hate-sorting-assets/BMBENDRIGHT.png");
     --pre: #64bde9;
     --dark: #1e1e1e99;
     --oceanL: #ade6f7;
@@ -20,7 +20,7 @@
 /* buka bird definition */
 @font-face {
     font-family: "BukaBird";
-    src: url("i-hate-sorting-assets/BukaBird.ttf") format("truetype");
+    src: url("../static/i-hate-sorting-assets/BukaBird.ttf") format("truetype");
 }
 
 /* le cool shit */
