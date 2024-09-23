@@ -51,4 +51,4 @@
         <li><a href="https://www.tenforums.com/members/stitch.html" target="_blank">TenForums</a></li>
     </ul>
 </h3>
-<img src="i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />
+<img src="/i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />

@@ -1,6 +1,6 @@
 <h1 class="bb cnt nfw brd">Okie-taka, but what do you really do?</h1>
-<a href="i-hate-sorting-assets/2021-10-29.jpg" class="rrr ub" target="_blank">
-    <img src="i-hate-sorting-assets/mee.png" alt="literally me!! wearing my stitch costume." />
+<a href="/i-hate-sorting-assets/2021-10-29.jpg" class="rrr ub" target="_blank">
+    <img src="/i-hate-sorting-assets/mee.png" alt="literally me!! wearing my stitch costume." />
     Me wearing my Stitch suit, click to expand.
 </a>
 <h3 class="ub wht nfw jst">
@@ -21,4 +21,4 @@
     </ul>
     This is all stuff I've picked up just doing things as a hobby over the years.<br />
 </h3>
-<img src="i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />
+<img src="/i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />

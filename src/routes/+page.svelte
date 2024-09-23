@@ -15,7 +15,7 @@
     <p class="quote-author ub fixmargin">- Jumba Jookiba</p>
 </div>
 <div class="cnt">
-    <img src="i-hate-sorting-assets/BlinkyLiloStitch.gif" alt="Lilo & Stitch blinky graphic" class="inbl" />
+    <img src="/i-hate-sorting-assets/BlinkyLiloStitch.gif" alt="Lilo & Stitch blinky graphic" class="inbl" />
 </div>
 
 <h3 class="ub wht nfw jst">
@@ -26,4 +26,4 @@
 </h3>
 <h3 class="ub wht cnt" style="margin-bottom:4px;margin-top:0;">last.fm</h3>
 <Lastfm data={data.lastfm}></Lastfm>
-<img src="i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />
+<img src="/i-hate-sorting-assets/stitchlol.gif" alt="Stitch laughing" class="fuckapple" />
